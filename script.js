@@ -63,26 +63,26 @@ let point = 9;
 point--;
 console.log(point--);
 
-// let ageInYears = prompt("Quanti anni hai?");
-// let age = Number(ageInYears);
-// let ageInSeconds = ageInYears * 365.25 * 24 * 60 * 60;
-// alert(`Significa che sei stato al mondo per almeno ${ageInSeconds} secondi!!`);
+let ageInYears = prompt("Quanti anni hai?");
+let age = Number(ageInYears);
+let ageInSeconds = ageInYears * 365.25 * 24 * 60 * 60;
+alert(`Significa che sei stato al mondo per almeno ${ageInSeconds} secondi!!`);
 
-// const sides = prompt(`Quante sides ha un dado?`);
-// alert(`Premi Invio o clicca su OK per lanciare il dado`);
-// const number = Math.ceil(sides*Math.random());
-// alert(`Il risultato del lancio del dado è ${number}`);
+const sides = prompt(`Quante sides ha un dado?`);
+alert(`Premi Invio o clicca su OK per lanciare il dado`);
+const number = Math.ceil(sides*Math.random());
+alert(`Il risultato del lancio del dado è ${number}`);
 
-// const age = prompt(`How old are you?`);
-// alert(`In 30 years you will be ${Number(age)+30}!`);
+const age = prompt(`How old are you?`);
+alert(`In 30 years you will be ${Number(age)+30}!`);
 
 
-// let energy = prompt(`Quanta energia ti senti da 1 a 10?`);
-// if (energy < 6) {
-//     alert(`Vai a dormire`)
-// } else {
-//     alert(`Studia!`)
-// }
+let energy = prompt(`Quanta energia ti senti da 1 a 10?`);
+if (energy < 6) {
+    alert(`Vai a dormire`)
+} else {
+    alert(`Studia!`)
+}
 
 
 
