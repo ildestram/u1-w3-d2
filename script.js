@@ -76,19 +76,13 @@ console.log(point--);
 // const age = prompt(`How old are you?`);
 // alert(`In 30 years you will be ${Number(age)+30}!`);
 
-// let energy = 10;
-// if (energy > 3) {
-//     alert(`Vai a dormire!`)
+
+// let energy = prompt(`Quanta energia ti senti da 1 a 10?`);
+// if (energy < 6) {
+//     alert(`Vai a dormire`)
 // } else {
 //     alert(`Studia!`)
 // }
-
-let energy = prompt(`Quanta energia ti senti da 1 a 10?`);
-if (energy < 6) {
-    alert(`Vai a dormire`)
-} else {
-    alert(`Studia!`)
-}
 
 
 
